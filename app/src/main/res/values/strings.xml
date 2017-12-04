@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ciastka</string>
+    <string name="enter_name">Cookie Name</string>
+    <string name="add_record">Add Cookie</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
+    <string name="empty_list_text">No cookies found, you dont deseerve sweetness</string>
+    <string name="enter_desc">Contains</string>
+    <string name="enter_title">Cookie</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="action_settings">Settings</string>
+</resources>
