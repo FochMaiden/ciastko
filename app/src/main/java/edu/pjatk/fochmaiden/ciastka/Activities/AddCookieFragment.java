@@ -22,7 +22,6 @@ public class AddCookieFragment extends Fragment {
     private Button addBtn;
     private EditText subjectEditText;
     private EditText descEditText;
-
     private DBManager dbManager;
 
 
@@ -51,7 +50,7 @@ public class AddCookieFragment extends Fragment {
 
                         DBManager.insert(name, desc);
 
-                        Intent main =  new Intent(v.getContext(), CookiesListActivity.class)
+                        Intent main =  new Intent(getActivity(), CookiesListActivity.class)
                                 .setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                         startActivity(main);
                         break;

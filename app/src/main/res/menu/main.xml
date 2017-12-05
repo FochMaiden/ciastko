@@ -4,6 +4,15 @@
     tools:context=".MainActivity">
 
     <item
+        android:id="@+id/witam"
+        android:title="wit"
+        android:icon="@drawable/ic_i"
+        app:showAsAction="always"
+        >
+
+    </item>
+
+    <item
         android:id="@+id/map"
         android:icon="@drawable/map"
         android:title="@string/title_activity_maps"
@@ -17,6 +26,7 @@
         app:showAsAction="always">
 
     </item>
+
 
 </menu>
 

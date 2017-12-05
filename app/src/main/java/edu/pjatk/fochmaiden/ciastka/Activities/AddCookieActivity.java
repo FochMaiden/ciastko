@@ -15,7 +15,7 @@ import edu.pjatk.fochmaiden.ciastka.R;
  * Created by FochMaiden on 02/12/2017.
  */
 
-public class AddCookieActivity extends AppCompatActivity implements View.OnClickListener {
+public class AddCookieActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Button addBtn;
     private EditText subjectEditText;
@@ -27,9 +27,10 @@ public class AddCookieActivity extends AppCompatActivity implements View.OnClick
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_add_record);
 
-
+//
 //        FragmentManager fm = getSupportFragmentManager();
 //
 //        Fragment fragment = new AddCookieFragment();

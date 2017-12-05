@@ -40,5 +40,4 @@
         android:padding="3dp"
         android:visibility="visible"
         />
-
 </RelativeLayout>

@@ -81,8 +81,12 @@ public class CookiesListActivity extends AppCompatActivity {
             startActivity(add_mem);
         }
         if(id == R.id.map){
-            Intent add_mem = new Intent(this, MapsActivity.class);
-            startActivity(add_mem);
+            Intent map = new Intent(this, MapsActivity.class);
+            startActivity(map);
+        }
+        if (id == R.id.witam) {
+            Intent hi = new Intent(this, WelcomeActivity.class);
+            startActivity(hi);
         }
         return super.onOptionsItemSelected(item);
     }
