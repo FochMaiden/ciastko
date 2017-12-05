@@ -1,4 +1,4 @@
-package edu.pjatk.fochmaiden.ciastka.Activities;
+package edu.pjatk.fochmaiden.ciastka.Fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
+import edu.pjatk.fochmaiden.ciastka.Activities.CookiesListActivity;
 import edu.pjatk.fochmaiden.ciastka.Data.DBManager;
 import edu.pjatk.fochmaiden.ciastka.R;
 
